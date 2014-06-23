@@ -5,11 +5,11 @@ using namespace std;
 int desplazamientoDerecha(int x, int y){
 	
 	x>>=y;
-	//Sea a=5
-	//entonces, a=0101 en binario
+	//Sea x=5, y=1
+	//entonces, x=0101 en binario
 	//desplazando 1 bit a la derecha
-	//quedaria a=0010 en binario
-	//entonces a=2 en decimal
+	//quedaria x=0010 en binario
+	//entonces x=2 en decimal
 	
 	//en resumen el desplazamiento por la derecha es simplemente la division entre las potencias de 2
 	return x;
@@ -18,11 +18,11 @@ int desplazamientoDerecha(int x, int y){
 int desplazamientoIzquierda(int x, int y){
 	
 	x<<=y;
-	//Sea a=5
-	//entonces, a=0101 en binario
+	//Sea x=5, y=1
+	//entonces, x=0101 en binario
 	//desplazando 1 bit a la izquierda
-	//quedaria a=1010 en binario
-	//entonces a=10 en decimal
+	//quedaria x=1010 en binario
+	//entonces x=10 en decimal
 	
 	//en resumen el desplazamiento por la izquierda es simplemente la multiplicacion por potencias de 2
 	return x;
