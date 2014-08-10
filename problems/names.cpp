@@ -17,7 +17,7 @@ int main(){
 		set <string> s;
 		for(int i=0;i<n;i++){
 			cin>>x;
-			s.insert(minuscula2(x));
+			s.insert(minuscula1(x));
 		}
 		cout<<s.size()<<endl;
 	}
