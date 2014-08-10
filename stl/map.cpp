@@ -9,6 +9,7 @@ int main(){
 	m["como"]=2;
 	m["estas"]=5;
 	
+	m["estas"]++;
 	map<string, int>::iterator it;
 	
 	for(it=m.begin(); it!=m.end(); it++){
