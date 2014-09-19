@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdio>
+#include <string.h>
 #define N 20000000
 
 using namespace std;
