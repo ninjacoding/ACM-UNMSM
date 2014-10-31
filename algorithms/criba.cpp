@@ -1,10 +1,10 @@
 #include <iostream>
 #include <cstdio>
 #include <string.h>
-#define N 20000000
+
 
 using namespace std;
-
+#define N 20000000
 bool v[N];
 
 //CRIBA DE ERATOSTENES PARA LOS NUMEROS PRIMOS
