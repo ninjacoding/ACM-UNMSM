@@ -1,4 +1,4 @@
-a = input("a = ") #solicita un numero por teclado
+a = input("a = ")  #solicita un numero por teclado
 b = input("b = ")
 
 c = a + b
